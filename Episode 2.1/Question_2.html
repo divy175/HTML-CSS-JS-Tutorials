@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Tags</title>
+    <link rel="stylesheet" href="/Question_2.css" />
+    <style>
+      summary {
+        cursor: pointer;
+        font-weight: bold;
+      }
+      details[open] summary {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Represents the header section of a page -->
+    <header>
+      <h1>Welcome To my website</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+    <!-- Indicate the main content area of the document -->
+    <main>
+      <h2>Main Content</h2>
+      <p>This is core content of the page</p>
+    </main>
+    <!-- Represent a themnatic group of content -->
+    <section>
+      <h2>Features</h2>
+      <p>Details About Features...</p>
+    </section>
+    <!-- User for standalone pieces of the code -->
+    <article>
+      <h2>Latest Blog Post</h2>
+      <p>This is the content of the blog post</p>
+    </article>
+    <!-- Represents content related to the main content often a sidebar -->
+    <aside>
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="#article1">Article</a></li>
+      </ul>
+    </aside>
+    <!-- Represent Navigation links -->
+    <nav>
+      <h3>Navigation Bar</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </nav>
+    <!-- Used for images or illustrations with captions -->
+    <figure>
+      <img width="300" height="300" src="/Public/logicalapt.png" alt="img" />
+      <figcaption>Aptitude</figcaption>
+    </figure>
+    <!-- Represent the footer of a page or section -->
+    <footer>
+      <p>Made With ❤️</p>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+    <!-- Details tag -->
+    <details open>
+      <summary>click to learn more</summary>
+      <p>this is hidden content revealed when user clicks</p>
+      <p>
+        We can set the default attribute as open so the content visible by
+        default
+      </p>
+    </details>
+    <!-- Example of detail tag -->
+    <details>
+      <summary>Show code snippet</summary>
+      <pre>
+                <code>
+                    funtion greet(){
+                        console.log('Hello world')
+                    }
+                    greet()
+                </code>
+            </pre>
+    </details>
+  </body>
+</html>
