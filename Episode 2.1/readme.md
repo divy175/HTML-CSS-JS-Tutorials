@@ -6,7 +6,7 @@ This repository contains my learning progress in HTML, CSS, and JavaScript, alon
 
 ## **HTML Learning and Questions**
 
-### **Question 1: Understanding Semantic Tags**
+### **Question 2: Understanding Semantic Tags**
 Semantic tags provide meaningful structure to an HTML document. Here's what I am exploring:
 - **`<article>`**: Represents self-contained content.
 - **`<section>`**: Denotes a thematic grouping of content.
@@ -18,7 +18,7 @@ Semantic tags provide meaningful structure to an HTML document. Here's what I am
 - **`<details>`**: Contains additional details that users can view or hide.
 - **`<figure>`**: Used to group media content with an optional caption (`<figcaption>`).
 
-### **Question 2: Testing Formatting Tags in HTML**
+### **Question 4: Testing Formatting Tags in HTML**
 Testing the usage and effects of HTML formatting tags:
 - **`<b>`**: Bold text.
 - **`<i>`**: Italic text.
@@ -29,7 +29,7 @@ Testing the usage and effects of HTML formatting tags:
 - **`<del>`**: Strikethrough text indicating deletion.
 - **`<mark>`**: Highlights text.
 
-### **Question 3: Working with HTML Tables**
+### **Question 6: Working with HTML Tables**
 Exploring the structure and functionality of HTML tables:
 - **`<table>`**: Creates a table element.
 - **`<tr>`**: Table row.
