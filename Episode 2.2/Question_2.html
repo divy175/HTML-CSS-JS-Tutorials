@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tags</title>
+    <style>
+      input {
+        margin: 8px;
+        display: block;
+      }
+      #cars {
+        display: block;
+      }
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Simple Form With Tags</h1>
+    <form action="">
+      <!-- label -->
+      <label for="name">Enter Your Name </label>
+      <!-- input:text -->
+      <input type="text" id="name" name="name" />
+      <!-- textarea -->
+      <textarea name="contect" id="value">Text Goes Here</textarea>
+      <!-- select -->
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="volvo">Volvo</option>
+        <option value="volvo">Volvo</option>
+        <option value="volvo">Volvo</option>
+      </select>
+      <!-- range -->
+      <input type="range" name="range" id="range" />
+      <!-- button:Submit -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
